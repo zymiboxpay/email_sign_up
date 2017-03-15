@@ -1,0 +1,4 @@
+<%= button_tag 'sign up', class: 'sign-up' %>
+<%= form_tag('/users/sign_up', method: 'post', remote: true) do -%>
+  <%= text_field_tag 'email', nil, type: 'email' %>
+<% end -%>

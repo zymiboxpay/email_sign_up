@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  post 'user/sign_up'
+  post 'users/sign_up'
 
-  get 'user/sign_in'
+  get 'users/sign_in'
 
   get 'welcome/index'
 
